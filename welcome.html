@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-between;
+            align-items:safe;
+            border: 5px solid #8B4513; 
+            padding: 10px; 
+        }
+
+        .container a {
+            width: 50%;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        .container img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+        }
+
+        .container a:hover img {
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+
+    <div style="background-color: #8B4513; padding: 14px;">
+        <a href="#" style="color: white; text-decoration: none; margin: 10px;">Home</a>
+        <a href="#" style="color: white; text-decoration: none; margin: 10px;">About</a>
+        <a href="#" style="color: white; text-decoration: none; margin: 10px;">Contact Us</a>
+    </div>
+    <center><h1 style="color: brown;">CAKE <i>HARBOUR</i> </h1></center>
+    <video src="video (1080p).mp4" loop autoplay muted style="width: 100%; height: auto; max-height: 500px; object-fit: cover; margin: 0 auto; border: 1px solid #8B4513;"></video>
+
+    <hr size=5px color="#8B45">
+    
+    <h2><i style="color: #5a2600e5;">Don't forget to choose some of our</i> <span><b style="color:#5a2600e5 ;">FAVORITES </b></span></h2>
+
+    <div class="container">
+        <div style="display: inline-block; margin: 10px; text-align: center;">
+            <div>
+                <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                    <img src="pexels-suzy-hazelwood-1126359.jpg" alt="try later" style="height: 320px; width: 400px;">
+                </a>
+            </div>
+            <div><p><i style="color: crimson;"> Exquisite Berry Bliss Delight</i></p></div>
+            <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                <button style="background-color: brown; margin-top: 10px;">BUY NOW</button></a>
+    </div>
+        <div style="display: inline-block; margin: 10px; text-align: center;">
+            <div>
+                <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                    <img src="pexels-eric-mufasa-1414234.jpg" alt="try later" style="height: 320px; width: 400px;">
+                </a>
+            </div>
+            <div><p><i style="color: rgb(220, 2, 82);"> Strawberry Swirl Dream</i></p></div>
+            <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                <button style="background-color: brown; margin-top: 10px;">BUY NOW</button></a>
+        </div><div style="display: inline-block; margin: 10px; text-align: center;">
+            <div>
+                <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                    <img src="pexels-elli-1854652.jpg" alt="try later" style="height: 320px; width: 400px;">
+                </a>
+            </div>
+            <div><p><i style="color: #8B4513;"> Chocovelvet Decadence</i></p></div>
+            <a href="https://www.zomato.com/rajahmundry/cakes-and-desserts-rajahmundry-locality/order" target="_blank">
+                <button style="background-color: brown; margin-top: 10px;">BUY NOW</button></a>
+        </div>
+    </div>
+</body>
+</html>
